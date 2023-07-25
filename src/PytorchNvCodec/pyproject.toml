@@ -5,6 +5,10 @@ description = "Video Processing Framework"
 authors = ["TBD"]
 readme = "README.md"
 
+[tool.poetry.build]
+generate-setup-file = true
+script = "setup.py"
+
 [tool.poetry.dependencies]
 torch = "2.0.0"
 
